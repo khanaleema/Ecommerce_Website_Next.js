@@ -20,8 +20,8 @@ const Categories = () => {
                             src={category.img} 
                             alt={category.name} 
                             className="w-full h-48 object-cover group-hover:scale-105 transition-transform" 
-                            width={300} // Set width according to your layout
-                            height={200} // Set height according to your layout
+                            width={300}
+                            height={200}
                         />
                         <div className="p-4 text-center">
                             <h3 className="font-bold text-lg">{category.name}</h3>
