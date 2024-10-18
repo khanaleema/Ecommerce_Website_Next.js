@@ -17,31 +17,31 @@ interface Product {
 
 const productData: Product[] = [
     {
-        id: 1,
-        img: "/tshirt.webp",
-        title: "Casual T-Shirt",
-        desc: "Comfortable Cotton T-Shirt",
+        id:1,
+        img: "/sports-1.webp",
+        title: "Sports",
+        desc: "Trekking & Running Shoes - Black",
+        rating: 3,
+        price: 58.00,
+        originalPrice: 75.00
+    },
+    {
+        id:2,
+        img: "/watch-1.webp",
+        title: "Smart Watch",
+        desc: "Fitness Tracker with Heart Rate Monitor",
         rating: 4,
-        price: 30.00,
-        originalPrice: 40.00
+        price: 99.00,
+        originalPrice: 150.00
     },
     {
-        id: 2,
-        img: "/jeans.webp",
-        title: "Blue Jeans",
-        desc: "Stylish Blue Jeans for Men",
+        id:3,
+        img: "/shirt-1.webp",
+        title: "Casual Shirt",
+        desc: "Stylish Casual Shirt for Everyday Wear",
         rating: 5,
-        price: 50.00,
-        originalPrice: 70.00
-    },
-    {
-        id: 3,
-        img: "/jacket.webp",
-        title: "Leather Jacket",
-        desc: "Premium Quality Leather Jacket",
-        rating: 5,
-        price: 200.00,
-        originalPrice: 250.00
+        price: 45.00,
+        originalPrice: 60.00
     }
 ];
 
